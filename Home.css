@@ -1,0 +1,190 @@
+#hireBtn{
+    background-color: rgba(71, 68, 223, 0.774);
+    position: fixed;
+    top: 280px;
+    left: 5px;
+    border: none;
+    border-radius: 10px;
+    height: 70px;
+    width: 70px;
+    color: white;
+    font-weight: 500;
+    box-shadow: 5px 5px 5px grey;
+    z-index: 1;
+}
+
+#hireBtn:hover{
+    background-color: rgb(71, 68, 223);
+    height: 75px;
+    width: 75px;
+    left: 2px;
+}
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+  background-color: rgba(166, 62, 207, 0.733);
+  color: white;
+  font-weight: 500;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  position: fixed;
+  top: 360px;
+  left: 5px;
+  height: 70px;
+  width: 70px;
+  box-shadow: 5px 5px 5px grey;
+  z-index: 1;
+}
+
+.open-button:hover{
+    background-color: rgba(171, 73, 184, 0.979);
+    height: 75px;
+    width: 75px;
+    left: 2px;
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 5px;
+  border: none;
+  box-shadow: 5px 5px 15px grey;
+  z-index: 1000;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/send button */
+.form-container .btn {
+  background-color: #4776f8;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: rgb(231, 71, 71);
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover {
+  opacity: 0.6;
+}
+
+.fa-scribd{
+    color: rgb(40,167,69);
+}
+
+.carousel-item img{
+    height: 600px;
+}
+
+.carousel-caption{
+    background-color: rgba(11, 11, 15, 0.719);
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 80px;
+    border-top-left-radius: 3px;
+    box-shadow: 5px 5px 10px 3px white;
+}
+
+.carousel-caption h3 p{
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+.ourServices .card{
+    box-shadow: 3px 4px 10px 3px grey;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: rgb(5, 5, 8);
+    height: 60px;
+    width: 40px;
+    border-radius: 10px;
+}
+
+.connectWithUsInfo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.googleMap img{
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px 3px grey;
+}
+
+.googleMap img:hover{
+    box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.63);
+}
+
+.fa-facebook-official:hover{
+    color: rgb(25, 118, 240);
+    cursor: pointer;
+}
+.fa-instagram:hover{
+    color: rgb(207, 45, 134);
+    cursor: pointer;
+}
+.fa-youtube-play:hover{
+    color: rgb(214, 41, 64);
+    cursor: pointer;
+}
+.fa-twitter:hover{
+    color: rgb(92, 200, 250);
+    cursor: pointer;
+}
+
+.footer h6{
+    cursor: pointer;
+}
+.footer h6:hover{
+    color: grey;
+}
+
+@media (max-width: 600px){
+    .connectWithUsInfo{
+        display: block;
+    }
+    .connectWithUsInfo h3{
+        font-size: 20px;
+    }
+    .connectWithUsInfo p{
+        font-size: 15px;
+        color: rgb(50, 83, 53);
+    }
+    .googleMap img{
+        height: 300px;
+        width: 300px;
+    }
+}

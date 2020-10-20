@@ -1,0 +1,32 @@
+.fa-scribd{
+    color: rgb(40,167,69);
+}
+
+.card{
+    float: left;
+    margin: 10px;
+    width: 600px;
+    height: 200px;
+    box-shadow: 3px 3px 10px 3px grey;
+}
+
+.card-img{
+    height: 200px;
+}
+
+@media (max-width: 678px){
+    .card{
+        margin: 0;
+        width: 100%;
+        height: 620px;
+    }
+    
+    .card-img{
+        height: 350px;
+    }
+
+    .card .button{
+        display: flex;
+        justify-content: center;
+    }
+}
